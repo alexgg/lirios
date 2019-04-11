@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="lirios" alias="origin" fetch="."/>
+  <remote name="lirios" alias="origin" fetch="https://github.com/lirios/"/>
 
   <default revision="develop" remote="lirios" sync-j="8" sync-s="true"/>
 
@@ -39,13 +39,10 @@
   <project name="qtgsettings" path="libraries/qtgsettings" groups="libraries"/>
   <project name="qtudev" path="libraries/qtudev" groups="libraries"/>
 
-  <project name="appcenter" path="apps/appcenter" groups="apps"/>
   <project name="browser" path="apps/browser" groups="apps"/>
   <project name="calculator" path="apps/calculator" groups="apps"/>
   <project name="files" path="apps/files" groups="apps"/>
-  <project name="player" path="apps/player" revision="feature/port" groups="apps"/>
   <project name="terminal" path="apps/terminal" groups="apps"/>
   <project name="text" path="apps/text" groups="apps"/>
 
-  <project name="calamares-branding" path="os/calamares-branding" groups="os"/>
 </manifest>
